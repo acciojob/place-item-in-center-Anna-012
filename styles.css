@@ -1,10 +1,17 @@
-.holder{
-	width:100vw;
-	height:100vh
+html, body {
+    height: 100%;        /* Set height to 100% */
+    margin: 0;           /* Remove default margin */
 }
-.item-1{
-	display:flex;
-	height:100px;
-	width:100px;
-	background-color:red;
+.holder {
+    display: flex;                /* Use flexbox */
+    justify-content: center;      /* Center items horizontally */
+    align-items: center;          /* Center items vertically */
+    width: 100vw;                 /* Full viewport width */
+    height: 100vh;                /* Full viewport height */
+    background-color: lightgray;  /* Optional background color for the holder */
+}
+.item-1 {
+    width: 100px;                /* Set width to 100px */
+    height: 100px;               /* Set height to 100px */
+    background-color: red;       /* Red background color */
 }
